@@ -1,12 +1,15 @@
 package com.example.demo.payload;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Getter
 @Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class DTOResponse<T> {
-	T message;
-	String status;
-
+	private T message;
+	private String status;
 }

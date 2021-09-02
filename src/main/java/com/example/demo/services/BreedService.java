@@ -4,5 +4,5 @@ import java.util.List;
 import java.util.Map;
 
 public interface BreedService {
-	public Map<String, List<String>> getData();
+	public Map<String, List<String>> getData() throws Exception;
 }
